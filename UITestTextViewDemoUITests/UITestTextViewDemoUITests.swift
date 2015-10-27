@@ -6,7 +6,7 @@ class UITestTextViewDemoUITests: XCTestCase {
     let app = XCUIApplication()
     app.launch()
     
-//    let textField = app.textFields.elementBoundByIndex(0)
+    let textField = app.textFields.elementBoundByIndex(0)
 //    textField.tap()
 //    textField.typeText("hello")
     
