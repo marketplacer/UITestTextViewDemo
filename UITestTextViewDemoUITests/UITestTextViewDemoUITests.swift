@@ -16,7 +16,7 @@ class UITestTextViewDemoUITests: XCTestCase {
       let app = XCUIApplication()
       app.launch()
       
-      var textView = app.textViews.elementBoundByIndex(0)
+      let textView = app.textViews.elementBoundByIndex(0)
       textView.tap()
       textView.typeText("Hello world")
       XCTAssertEqual("Hello world", textView.value as? String)
