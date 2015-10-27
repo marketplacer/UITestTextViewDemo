@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					7EC75B691BDF01270029CFF2 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2KG6869LZH;
 					};
 					7EC75B821BDF02770029CFF2 = {
 						CreatedOnToolsVersion = 7.1;
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UITestTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marketplacer.UITestTextViewDemo;
@@ -338,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UITestTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marketplacer.UITestTextViewDemo;
@@ -390,6 +393,7 @@
 				7EC75B7E1BDF01270029CFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EC75B8A1BDF02770029CFF2 /* Build configuration list for PBXNativeTarget "UITestTextViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +402,7 @@
 				7EC75B8C1BDF02770029CFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
