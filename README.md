@@ -5,4 +5,4 @@ This is a demo project demonstrating a problem in UI Tests run by Xcode bot. The
 ## Instructions
 
 1. Create an Xcode bot for the UI test.
-1. Run the UI test bot.
+1. Run the integration with this bot.
