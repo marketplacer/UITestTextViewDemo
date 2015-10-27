@@ -10,8 +10,8 @@ class UITestTextViewDemoUITests: XCTestCase {
     textField.tap()
     textField.typeText("hello")
     
-//    let textView = app.textViews["My text view"]
-//    textView.tap()
-//    textView.typeText("Hello world")
+    let textView = app.textViews.elementBoundByIndex(0)
+    textView.tap()
+    textView.typeText("Hello world")
   }
 }
