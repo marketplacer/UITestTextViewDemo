@@ -6,7 +6,7 @@ class UITestTextViewDemoUITests: XCTestCase {
     let app = XCUIApplication()
     app.launch()
     
-    let textView = app.textViews.elementBoundByIndex(0)
+    let textView = app.textViews["My text view"]
     textView.tap()
     textView.typeText("Hello world")
   }
