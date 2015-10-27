@@ -19,26 +19,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uFm-zO-N37">
-                                <rect key="frame" x="20" y="50" width="560" height="530"/>
+                                <rect key="frame" x="20" y="86" width="560" height="494"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.4377613347" blue="0.34240206490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="My text view"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J52-sJ-naf">
+                                <rect key="frame" x="20" y="36" width="560" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uFm-zO-N37" secondAttribute="bottom" constant="20" id="0Ye-E5-mVc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uFm-zO-N37" secondAttribute="trailing" id="PzL-hR-3al"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uFm-zO-N37" secondAttribute="bottom" constant="20" id="TGD-ix-iDc"/>
-                            <constraint firstItem="uFm-zO-N37" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="eyB-bx-JHB"/>
+                            <constraint firstItem="uFm-zO-N37" firstAttribute="top" secondItem="J52-sJ-naf" secondAttribute="bottom" constant="20" id="RZs-Bt-EVQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J52-sJ-naf" secondAttribute="trailing" id="eD7-2w-u1o"/>
                             <constraint firstItem="uFm-zO-N37" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n0A-TO-STy"/>
+                            <constraint firstItem="J52-sJ-naf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="q6V-Jq-V1Z"/>
+                            <constraint firstItem="J52-sJ-naf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yYN-56-Bdt"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="199" y="493"/>
         </scene>
     </scenes>
 </document>

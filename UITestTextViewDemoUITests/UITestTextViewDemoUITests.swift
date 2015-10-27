@@ -6,8 +6,12 @@ class UITestTextViewDemoUITests: XCTestCase {
     let app = XCUIApplication()
     app.launch()
     
-    let textView = app.textViews["My text view"]
-    textView.tap()
-    textView.typeText("Hello world")
+    let textField = app.textFields.elementAtIndex(0)
+    textField.tap()
+    textField.typeText("hello")
+    
+//    let textView = app.textViews["My text view"]
+//    textView.tap()
+//    textView.typeText("Hello world")
   }
 }
