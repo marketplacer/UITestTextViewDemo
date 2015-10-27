@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UITestTextViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="UITestTextViewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uFm-zO-N37">
-                                <rect key="frame" x="20" y="20" width="560" height="560"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uFm-zO-N37">
+                                <rect key="frame" x="20" y="50" width="560" height="530"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.4377613347" blue="0.34240206490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -31,7 +31,7 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="uFm-zO-N37" secondAttribute="trailing" id="PzL-hR-3al"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uFm-zO-N37" secondAttribute="bottom" constant="20" id="TGD-ix-iDc"/>
-                            <constraint firstItem="uFm-zO-N37" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eyB-bx-JHB"/>
+                            <constraint firstItem="uFm-zO-N37" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="eyB-bx-JHB"/>
                             <constraint firstItem="uFm-zO-N37" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n0A-TO-STy"/>
                         </constraints>
                     </view>
