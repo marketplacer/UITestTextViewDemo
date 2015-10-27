@@ -15,7 +15,7 @@ class UITestTextViewDemoUITests: XCTestCase {
     let textView = app.textViews.elementBoundByIndex(0)
     textView.tap()
     textView.tap()
-    sleep(1)
+    sleep(3)
     textView.typeText("Hello world")
   }
 }
