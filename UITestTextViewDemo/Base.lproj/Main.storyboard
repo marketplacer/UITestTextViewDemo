@@ -18,15 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" text="This is text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uFm-zO-N37">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cYX-yx-wbv">
                                 <rect key="frame" x="20" y="86" width="560" height="494"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.4377613347" blue="0.34240206490000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <accessibility key="accessibilityConfiguration" identifier="" label="">
-                                    <accessibilityTraits key="traits" none="YES"/>
-                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J52-sJ-naf">
                                 <rect key="frame" x="20" y="36" width="560" height="30"/>
@@ -38,11 +35,11 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uFm-zO-N37" secondAttribute="bottom" constant="20" id="0Ye-E5-mVc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uFm-zO-N37" secondAttribute="trailing" id="PzL-hR-3al"/>
-                            <constraint firstItem="uFm-zO-N37" firstAttribute="top" secondItem="J52-sJ-naf" secondAttribute="bottom" constant="20" id="RZs-Bt-EVQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cYX-yx-wbv" secondAttribute="bottom" constant="20" id="7p6-di-b6v"/>
+                            <constraint firstItem="cYX-yx-wbv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="CLx-Gb-0Cb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cYX-yx-wbv" secondAttribute="trailing" id="c66-D9-i4o"/>
                             <constraint firstAttribute="trailingMargin" secondItem="J52-sJ-naf" secondAttribute="trailing" id="eD7-2w-u1o"/>
-                            <constraint firstItem="uFm-zO-N37" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n0A-TO-STy"/>
+                            <constraint firstItem="cYX-yx-wbv" firstAttribute="top" secondItem="J52-sJ-naf" secondAttribute="bottom" constant="20" id="lve-3A-aG0"/>
                             <constraint firstItem="J52-sJ-naf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="q6V-Jq-V1Z"/>
                             <constraint firstItem="J52-sJ-naf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yYN-56-Bdt"/>
                         </constraints>
