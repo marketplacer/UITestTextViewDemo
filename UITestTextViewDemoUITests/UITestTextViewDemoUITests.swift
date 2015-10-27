@@ -8,7 +8,7 @@ class UITestTextViewDemoUITests: XCTestCase {
     
     let textField = app.textFields.elementBoundByIndex(0)
     textField.tap()
-    //textField.typeText("hello")
+    textField.typeText("hello")
     
     XCTAssertEqual(1, app.textViews.count)
     
