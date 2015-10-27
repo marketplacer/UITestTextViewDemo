@@ -22,7 +22,9 @@
                                 <rect key="frame" x="20" y="86" width="560" height="494"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.4377613347" blue="0.34240206490000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <accessibility key="accessibilityConfiguration" label="My text view"/>
+                                <accessibility key="accessibilityConfiguration" identifier="My text view" label="">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                             </textView>
